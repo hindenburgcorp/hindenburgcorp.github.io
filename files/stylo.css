@@ -3,3 +3,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
+
+#h {
+	color: white; 
+	font-size: 70px;
+}
