@@ -52,17 +52,23 @@ body > #container { height: auto; min-height: 100%; }
 
 #content {
 	padding-bottom: 3em;
+  position: absolute;
+  bottom: 30%;
 }
 
 #footer {
 	clear: both;
-	background-color: #000;
-	z-index: 10;
-	position: relative;
-	width: 101%;
-	margin-left: -0.5%;
-	height: 50%;
-	margin-top: -27%;
+  background-color: #000;
+  color: #fff;
+  z-index: 10;
+  position: relative;
+  width: 102%;
+  margin-left: -1.5%;
+  height: 50%;
+  margin-top: -20%;
+  padding-top: 10px;
+  padding-left: -10px;
+  text-align: center;
 }
 
 .scanlines {
