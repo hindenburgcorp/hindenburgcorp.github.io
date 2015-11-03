@@ -26,18 +26,22 @@ body {
     font-style: normal;
 }
 
+
+#content {
+  float: left;
+}
+
 #h {
 	color: white; 
 	font-size: 70px;
 	font-family: 'buran_ussrregular';
-	position: relative;
 }
 
 #h-sub {
 	color: #c5161d; 
 	font-size: 20px;
 	font-family: 'buran_ussrregular';
-	position: relative;
+	text-align: left;
 }
 
 .cb {
@@ -63,11 +67,6 @@ body {
 	width: 100%;
 }
 
-#content {
-  position: absolute;
-  bottom: 10%;
-}
-
 #footer {
 	color: #FFF;
 	background-color: #000;
@@ -77,7 +76,7 @@ body {
 	bottom: 0px;
 	padding-top: 5px;
 	text-align: center;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 }
 
 .scanlines {
