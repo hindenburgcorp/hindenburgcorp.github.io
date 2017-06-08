@@ -2,7 +2,7 @@ body {
 	background-color: #c5161d;
 }
 
-#dad {
+.dad {
 	top: 0px;
 	height: 100%;
 	left: 50%;
@@ -27,20 +27,22 @@ body {
 }
 
 
-#content {
+.content {
   float: left;
 }
 
-#h {
+.h {
 	color: white; 
 	font-size: 70px;
 	font-family: 'buran_ussrregular';
+	pointer-events: none;
 }
 
-#h-sub {
+.h-sub {
 	color: #c5161d; 
 	font-size: 20px;
 	font-family: 'buran_ussrregular';
+	pointer-events: none;
 	text-align: left;
 }
 
@@ -48,7 +50,7 @@ body {
 	clear: both;
 }
 
-#background {
+.background {
 	background-image: url("http://hindenburgcorp.github.io/assets/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;	
@@ -59,7 +61,7 @@ body {
 	height: 100%;
 }
 
-#container {
+.container {
 	margin: 0px;
 	padding: 0px;
 	top: 0px;
@@ -67,7 +69,7 @@ body {
 	width: 100%;
 }
 
-#footer {
+.footer {
 	color: #FFF;
 	background-color: #000;
 	position: absolute;
